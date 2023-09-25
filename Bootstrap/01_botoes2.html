@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Botões</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body >
+
+    <!-- class="container pt-5 " para deixar um espaçamento do lado -->
+
+    <!-- Com bootstrap -->
+    <!-- 
+        01 - Tipo primary com cor do  texto black
+        02 - Tipo danger com cor do texto dark
+        03 - Tipo Warning 
+        04 - Tipo Info com cor do texto secondary e o background do texto sucess 
+        
+
+        Crie botoes usando elementos da tag "a" e do tipo input"submit"
+        05 - Tag "a": tipo primary  
+        06 - Tag input "submit": tipo sucess 
+        
+        crie botoes do tipo Outline 
+        07 - Botao do tipo primary 
+        08 - Botao do tipo Warning
+        
+        Crie um botão ocupando uma linha inteira
+        09 - Do tipo outline sucess, large e margin top 3
+        
+        criar 3 botoes com 3 tamanhos
+        25%
+        50%
+        75%
+     -->
+
+     <button type="button" class="btn btn-primary text-black ">Primary</button>
+     <button type="button" class="btn btn-danger text-dark ">Danger</button>
+     <button type="button" class="btn btn-warning">Warning</button>
+     <button type="button" class="btn btn-info text-secondary bg-success ">Info</button>
+
+     <a class="btn btn-primary" href="#" role="button">Link</a>
+     <input class="btn btn-sucess" type="submit" value="Submit">
+
+     <button type="button" class="btn btn-outline-primary">Primary</button>
+     <button type="button" class="btn btn-outline-warning">Warning</button>
+
+
+     <div class="d-grid gap-2 m-lg-3 ">
+        <button class="btn btn-outline-success " type="button">Button</button>
+    </div>
+    <div class="d-grid gap-2 ">
+        <button class="btn btn-outline-success   w-25 m-lg-3" type="button">Button</button>
+    </div>
+    <div class="d-grid gap-2   ">
+        <button class="btn btn-outline-success w-50 m-lg-3 " type="button">Button</button>
+    </div>
+    <div class="d-grid gap-2  ">
+        <button class="btn btn-outline-success w-75 m-lg-3  " type="button">Button</button>
+    </div>
+
+    <!-- col-3 = w-25 -->
+
+    <!-- Criando um boxmodel -->
+    <h1>boxmodel</h1>
+    <hr>
+
+    <div class="display-1 bg-warning border  border-primary border-5 rounded-4  text-center ">
+        BoxModel
+    </div>
+
+    <!-- Menu suspenso -->
+
+    <div class="text-sm-start text-sm-center text-md-end  text-lg-start text-xl-center text-xxl-end ">
+        <h1>Esse é um texto</h1>
+    </div>
+
+    
+
+</body>
+</html>

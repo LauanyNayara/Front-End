@@ -1,0 +1,13 @@
+:root{
+    --primary: #912020;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+.bg-ligth{
+    background-color: var(--primary) !important;
+}
+.btn-primary{
+    color: var(--primary);
+}
